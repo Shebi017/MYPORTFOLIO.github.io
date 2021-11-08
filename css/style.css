@@ -1,0 +1,215 @@
+/* By Default Theme */
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --backgroundColor : #404B69;
+    --secondaryColor : #283149;
+    --hoverColor : #00818A;
+    --textColor : #DBEDF3;
+} 
+body{
+    /* font-family: 'Merriweather', serif;
+     */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Fira Sans', sans-serif;
+    /* transition: 40s; */
+}
+.secondary{
+    background-color: var(--secondaryColor);
+}
+.hovercolor{
+    background-color: var(--hoverColor);
+}
+.hover{
+    color:var(--hoverColor)
+}
+.hcolor{
+    color:var(--secondaryColor) ;
+}
+.link:hover{
+    color: var(--hoverColor);
+}
+.navicons:hover{
+    background-color: var(--hoverColor);
+}
+.background{
+    background-color: var(--backgroundColor);
+}
+.txtcolor{
+    color: var(--textColor);
+}
+.theme1{
+    background-color: #283149;
+}
+.theme2{
+    background-color: #393232;
+}
+.theme3{
+    background-color:#232931;
+}
+.theme4{
+    background-color: #522546;
+}
+.theme5{
+    background-color: #B8DFD8;
+}
+.theme6{
+    background-color: #98DED9;
+}
+
+.circle:hover{
+    border: 2px solid yellow;
+}
+.skillscircle{
+    transition: all 0.7s ease-in;
+}
+.skillscircle:hover{
+    transform: scale(1.1);
+}
+.btn{
+    transition: all 1s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--hoverColor);
+} 
+
+.navlinks:hover{
+    color: var(--textColor);
+    /* font-family: cursive; */
+}
+.introPara{
+    line-height:2rem;
+}
+
+/* Projects Section CSS */
+
+.projectskill{
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+}
+
+.projectcard{
+    transition: all 1s ease-in-out;
+}
+.projectcard:hover{
+    transform: scale(1.04);
+}
+.btnproject:hover{
+    background-color: var(--secondaryColor);
+    transition: all 1s ease-in-out;
+}
+
+.filters .type{
+    padding: 0.7rem 1.4rem;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    /* margin-right: rem; */
+    color: var(--secondaryColor);
+    font-size: large;
+}
+.filters .active{
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    /* font-weight: bold; */
+}
+
+.card:hover{
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+.card{
+    width: 24rem;
+}
+/* End of Projects Section  */
+
+/* footer */
+.footerbtn:hover{
+    transition: all 1s ease-in-out;
+    background-color: var(--backgroundColor);
+}
+
+/* End of footer */
+/* .card{
+    width: 300px;
+    height: 300px;
+} */
+
+
+
+/* 
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Dark Theme */
+
+/* theme:1
+:root{
+    --backgroundColor : #404B69;
+    --secondaryColor : #283149;
+    --hoverColor : #00818A;
+    --textColor : #DBEDF3;
+} */
+
+/* 
+theme:2
+
+:root{
+    --backgroundColor : #8D6262;
+    --secondaryColor: #393232;
+    --hoverColor : #4D4545;
+    --textColor : #ED8D8D;
+}
+
+
+*/
+
+/* 
+theme:3
+
+:root{
+    --backgroundColor : #393E46;
+    --secondaryColor : #232931;
+    --hoverColor : #4ECCA3;
+    --textColor : #EEEEEE;
+}
+
+*/
+/* theme:4
+
+:root{
+    --backgroundColor :#522546;
+    --secondaryColor: #88304E;
+    --hoverColor : #B0A565;
+    --textColor : #ffffff;
+}
+
+*/
+
+/* Light Theme */
+
+/* theme 5:hover
+:root{
+    --backgroundColor :#E8F6EF;
+    --secondaryColor: #B8DFD8;
+    --hoverColor : #FFE194;
+    --textColor : #4C4C6D;
+}
+
+*/
+
+/* theme -6
+
+:root{
+    --backgroundColor :#C7FFD8;
+    --secondaryColor: #98DED9;
+    --hoverColor : #7C9473;
+    --textColor : #161D6F;
+}
+
+*/
